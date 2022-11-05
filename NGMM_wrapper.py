@@ -22,7 +22,7 @@ days = 2 # Max = 365
 instance = m1.create_instance('NGMM_data.dat')
 instance.dual = pyo.Suffix(direction=pyo.Suffix.IMPORT)
 
-Solvername = 'gurobi'
+Solvername = 'cplex'
 Timelimit = 3600 # for the simulation of one day in seconds
 # Threadlimit = 8 # maximum number of threads to use
 
@@ -142,12 +142,6 @@ for day in range(1,days+1):
                     
                     step6_prod.append((index[0],index[1]+day-1,varobject[index].value))   
 
-                    
-        if a=='S':    
-            for index in varobject:
-                if index[0] in instance.nodes:
-                        slack.append((index[0],index[1]+day-1,varobject[index].value))
-
         if a=='step1_flow':    
             for index in varobject:
                 if int(index[1]==1):
@@ -183,7 +177,6 @@ step4_prod_pd=pd.DataFrame(step4_prod,columns=('Producer','Day','Value'))
 step5_prod_pd=pd.DataFrame(step5_prod,columns=('Producer','Day','Value'))
 step6_prod_pd=pd.DataFrame(step6_prod,columns=('Producer','Day','Value'))
 
-slack_pd = pd.DataFrame(slack,columns=('Node','Day','Value'))
 step1_flow_pd = pd.DataFrame(step1_flow,columns=('Line','Day','Value'))
 step2_flow_pd = pd.DataFrame(step2_flow,columns=('Line','Day','Value'))
 step3_flow_pd = pd.DataFrame(step3_flow,columns=('Line','Day','Value'))
@@ -192,20 +185,19 @@ step5_flow_pd = pd.DataFrame(step5_flow,columns=('Line','Day','Value'))
 duals_pd = pd.DataFrame(duals,columns=['Node','Day','Value'])
 
 #to save outputs
-step1_prod_pd.to_csv('step1_prod.csv', index=False)
-step2_prod_pd.to_csv('step2_prod.csv', index=False)
-step3_prod_pd.to_csv('step3_prod.csv', index=False)
-step4_prod_pd.to_csv('step4_prod.csv', index=False)
-step5_prod_pd.to_csv('step5_prod.csv', index=False)
-step6_prod_pd.to_csv('step6_prod.csv', index=False)
+step1_prod_pd.to_csv('Outputs/step1_prod.csv', index=False)
+step2_prod_pd.to_csv('Outputs/step2_prod.csv', index=False)
+step3_prod_pd.to_csv('Outputs/step3_prod.csv', index=False)
+step4_prod_pd.to_csv('Outputs/step4_prod.csv', index=False)
+step5_prod_pd.to_csv('Outputs/step5_prod.csv', index=False)
+step6_prod_pd.to_csv('Outputs/step6_prod.csv', index=False)
 
-slack_pd.to_csv('slack.csv', index=False)
-step1_flow.to_csv('step1_flow.csv', index=False)
-step2_flow.to_csv('step2_flow.csv', index=False)
-step3_flow.to_csv('step3_flow.csv', index=False)
-step4_flow.to_csv('step4_flow.csv', index=False)
-step5_flow.to_csv('step5_flow.csv', index=False)
-duals_pd.to_csv('duals.csv', index=False)
+step1_flow_pd.to_csv('Outputs/step1_flow.csv', index=False)
+step2_flow_pd.to_csv('Outputs/step2_flow.csv', index=False)
+step3_flow_pd.to_csv('Outputs/step3_flow.csv', index=False)
+step4_flow_pd.to_csv('Outputs/step4_flow.csv', index=False)
+step5_flow_pd.to_csv('Outputs/step5_flow.csv', index=False)
+duals_pd.to_csv('Outputs/duals.csv', index=False)
 
 
 
