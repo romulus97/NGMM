@@ -17,7 +17,7 @@ from datetime import datetime
 import pyomo.environ as pyo
 from pyomo.environ import value
 
-days = 2 # Max = 365
+days = 358 # Max = 365
 
 instance = m1.create_instance('NGMM_data.dat')
 instance.dual = pyo.Suffix(direction=pyo.Suffix.IMPORT)

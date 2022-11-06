@@ -5,7 +5,7 @@ set nodes :=
 AL AZ AR CA CO CT DC DE FL GA ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VA VT WA WV WI WY ME_CN_E NH_CN_E VT_CN_E NY_CN_E MI_CN_E MN_CN_W ND_CN_W MT_CN_W ID_CN_W WA_CN_W TX_MX_NE AZ_MX_NW CA_MX_NW TX_MX_SS MX_NE MX_NW MX_IW MX_CE MX_SS CN_E CN_W ;
 
 set lines :=
-AL_to_FL AL_to_GA AL_to_MS AL_to_TN AZ_to_CA AZ_to_NV AZ_to_AZ_MX_NW AR_to_LA AR_to_MS AR_to_MO AR_to_OK AR_to_TX CA_to_AZ CA_to_NV CA_to_CA_MX_NW CO_to_KS CO_to_NE CO_to_NM CO_to_OK CO_to_UT CO_to_WY CT_to_MA CT_to_NY CT_to_RI DE_to_MD DE_to_NJ GA_to_AL GA_to_FL GA_to_SC GA_to_TN ID_to_NV ID_to_OR ID_to_UT ID_to_WA ID_to_WY IL_to_IN IL_to_IA IL_to_KY IL_to_MO IL_to_WI IN_to_IL IN_to_KY IN_to_MI IN_to_OH IA_to_IL IA_to_MN IA_to_SD KS_to_CO KS_to_MO KS_to_NE KS_to_OK KY_to_IL KY_to_IN KY_to_OH KY_to_TN KY_to_VA KY_to_WV LA_to_AR LA_to_MS LA_to_TX ME_to_NH ME_to_ME_CN_E MD_to_DC MD_to_DE MD_to_PA MD_to_VA MD_to_WV MA_to_CT MA_to_NH MA_to_RI MI_to_IN MI_to_OH MI_to_WI MI_to_MI_CN_E MN_to_IA MN_to_ND MN_to_WI MN_to_MN_CN_W MS_to_AL MS_to_AR MS_to_LA MS_to_TN MO_to_AR MO_to_IL MO_to_IA MT_to_ND MT_to_WY MT_to_MT_CN_W NE_to_CO NE_to_IA NE_to_KS NE_to_SD NV_to_CA NV_to_OR NH_to_ME NH_to_MA NH_to_NH_CN_E NJ_to_NY NJ_to_PA NM_to_AZ NM_to_CO NM_to_TX NY_to_CT NY_to_MA NY_to_NJ NY_to_PA NY_to_NY_CN_E NC_to_SC NC_to_VA ND_to_MN ND_to_MT ND_to_SD ND_to_ND_CN_W OH_to_IN OH_to_KY OH_to_MI OH_to_PA OH_to_WV OK_to_AR OK_to_CO OK_to_KS OK_to_MO OK_to_TX OR_to_CA OR_to_ID OR_to_WA PA_to_DE PA_to_MD PA_to_NJ PA_to_NY PA_to_OH PA_to_WV RI_to_CT RI_to_MA SC_to_GA SC_to_NC SD_to_IA SD_to_MN SD_to_NE SD_to_ND SD_to_WY TN_to_AL TN_to_AR TN_to_GA TN_to_KY TN_to_MS TN_to_VA TX_to_AR TX_to_LA TX_to_NM TX_to_OK TX_to_TX_MX_NE UT_to_CO UT_to_ID UT_to_NV UT_to_WY VA_to_DC VA_to_MD VA_to_NC VA_to_TN WA_to_ID WA_to_OR WA_to_WA_CN_W WV_to_KY WV_to_MD WV_to_OH WV_to_PA WV_to_VA WI_to_IL WI_to_MI WI_to_MN WY_to_CO WY_to_MT WY_to_NE WY_to_SD WY_to_UT ME_CN_E_to_ME ME_CN_E_to_CN_E NH_CN_E_to_NH NH_CN_E_to_CN_E VT_CN_E_to_VT NY_CN_E_to_NY NY_CN_E_to_CN_E MI_CN_E_to_MI MI_CN_E_to_CN_E MN_CN_W_to_MN MN_CN_W_to_CN_W ND_CN_W_to_ND ND_CN_W_to_CN_W MT_CN_W_to_MT MT_CN_W_to_CN_W ID_CN_W_to_ID WA_CN_W_to_WA WA_CN_W_to_CN_W TX_MX_NE_to_TX TX_MX_NE_to_MX_NE AZ_MX_NW_to_MX_NW CA_MX_NW_to_CA CA_MX_NW_to_MX_NW TX_MX_SS_to_MX_SS MX_NE_to_TX_MX_NE MX_NE_to_MX_NW MX_NE_to_MX_IW MX_NE_to_MX_SS MX_NW_to_CA_MX_NW MX_IW_to_MX_CE MX_CE_to_MX_IW MX_SS_to_MX_NE MX_SS_to_MX_IW MX_SS_to_MX_CE CN_E_to_ME_CN_E CN_E_to_NH_CN_E CN_E_to_VT_CN_E CN_E_to_NY_CN_E CN_E_to_MI_CN_E CN_W_to_MN_CN_W CN_W_to_ND_CN_W CN_W_to_MT_CN_W CN_W_to_ID_CN_W CN_W_to_WA_CN_W CN_W_to_CN_E ;
+AL_to_FL AL_to_GA AL_to_MS AL_to_TN AZ_to_CA AZ_to_NV AZ_to_AZ_MX_NW AR_to_LA AR_to_MS AR_to_MO AR_to_OK AR_to_TX CA_to_AZ CA_to_NV CA_to_CA_MX_NW CO_to_KS CO_to_NE CO_to_NM CO_to_OK CO_to_UT CO_to_WY CT_to_MA CT_to_NY CT_to_RI DE_to_MD DE_to_NJ GA_to_AL GA_to_FL GA_to_SC GA_to_TN ID_to_NV ID_to_OR ID_to_UT ID_to_WA ID_to_WY IL_to_IN IL_to_IA IL_to_KY IL_to_MO IL_to_WI IN_to_IL IN_to_KY IN_to_MI IN_to_OH IA_to_IL IA_to_MN IA_to_SD KS_to_CO KS_to_MO KS_to_NE KS_to_OK KY_to_IL KY_to_IN KY_to_OH KY_to_TN KY_to_VA KY_to_WV LA_to_AR LA_to_MS LA_to_TX ME_to_NH ME_to_ME_CN_E MD_to_DC MD_to_DE MD_to_PA MD_to_VA MD_to_WV MA_to_CT MA_to_NH MA_to_RI MI_to_IN MI_to_OH MI_to_WI MI_to_MI_CN_E MN_to_IA MN_to_ND MN_to_WI MN_to_MN_CN_W MS_to_AL MS_to_AR MS_to_LA MS_to_TN MO_to_AR MO_to_IL MO_to_IA MT_to_ND MT_to_WY MT_to_MT_CN_W NE_to_CO NE_to_IA NE_to_KS NE_to_SD NV_to_CA NV_to_OR NH_to_ME NH_to_MA NH_to_NH_CN_E NJ_to_NY NJ_to_PA NM_to_AZ NM_to_CO NM_to_TX NY_to_CT NY_to_MA NY_to_NJ NY_to_PA NY_to_NY_CN_E NC_to_SC NC_to_VA ND_to_MN ND_to_MT ND_to_SD ND_to_ND_CN_W OH_to_IN OH_to_KY OH_to_MI OH_to_PA OH_to_WV OK_to_AR OK_to_CO OK_to_KS OK_to_MO OK_to_TX OR_to_CA OR_to_ID OR_to_WA PA_to_DE PA_to_MD PA_to_NJ PA_to_NY PA_to_OH PA_to_WV RI_to_CT RI_to_MA SC_to_GA SC_to_NC SD_to_IA SD_to_MN SD_to_NE SD_to_ND SD_to_WY TN_to_AL TN_to_AR TN_to_GA TN_to_KY TN_to_MS TN_to_VA TX_to_AR TX_to_LA TX_to_NM TX_to_OK TX_to_TX_MX_NE TX_to_TX_MX_SS UT_to_CO UT_to_ID UT_to_NV UT_to_WY VA_to_DC VA_to_MD VA_to_NC VA_to_TN WA_to_ID WA_to_OR WA_to_WA_CN_W WV_to_KY WV_to_MD WV_to_OH WV_to_PA WV_to_VA WI_to_IL WI_to_MI WI_to_MN WY_to_CO WY_to_MT WY_to_NE WY_to_SD WY_to_UT ME_CN_E_to_ME ME_CN_E_to_CN_E NH_CN_E_to_NH NH_CN_E_to_CN_E VT_CN_E_to_VT NY_CN_E_to_NY NY_CN_E_to_CN_E MI_CN_E_to_MI MI_CN_E_to_CN_E MN_CN_W_to_MN MN_CN_W_to_CN_W ND_CN_W_to_ND ND_CN_W_to_CN_W MT_CN_W_to_MT MT_CN_W_to_CN_W ID_CN_W_to_ID WA_CN_W_to_WA WA_CN_W_to_CN_W TX_MX_NE_to_TX TX_MX_NE_to_MX_NE AZ_MX_NW_to_MX_NW CA_MX_NW_to_CA CA_MX_NW_to_MX_NW TX_MX_SS_to_MX_SS MX_NE_to_TX_MX_NE MX_NE_to_MX_NW MX_NE_to_MX_IW MX_NE_to_MX_SS MX_NW_to_CA_MX_NW MX_IW_to_MX_CE MX_CE_to_MX_IW MX_SS_to_MX_NE MX_SS_to_MX_IW MX_SS_to_MX_CE CN_E_to_ME_CN_E CN_E_to_NH_CN_E CN_E_to_VT_CN_E CN_E_to_NY_CN_E CN_E_to_MI_CN_E CN_W_to_MN_CN_W CN_W_to_ND_CN_W CN_W_to_MT_CN_W CN_W_to_ID_CN_W CN_W_to_WA_CN_W CN_W_to_CN_E ;
 
 param SimDays := 365;
 param HorizonDays := 7;
@@ -224,6 +224,7 @@ TX_to_LA	575.887
 TX_to_NM	155.682
 TX_to_OK	140.771
 TX_to_TX_MX_NE	373.767
+TX_to_TX_MX_SS	100.0
 UT_to_CO	22.413
 UT_to_ID	21.08
 UT_to_NV	122.295
@@ -284,7 +285,7 @@ MX_SS_to_MX_IW	34.782
 MX_SS_to_MX_CE	124.0
 CN_E_to_ME_CN_E	25.823
 CN_E_to_NH_CN_E	12.369
-CN_E_to_VT_CN_E	2.511
+CN_E_to_VT_CN_E	4.0
 CN_E_to_NY_CN_E	102.765
 CN_E_to_MI_CN_E	95.542
 CN_W_to_MN_CN_W	93.496
@@ -448,6 +449,7 @@ TX_to_LA	0.05	0.05	0.1	1.0	2.0
 TX_to_NM	0.03	0.03	0.25	0.5	1.0
 TX_to_OK	0.01	0.01	0.02	0.05	0.25
 TX_to_TX_MX_NE	0.04	0.04	0.1	0.2	0.4
+TX_to_TX_MX_SS	0	0	0	0	0
 UT_to_CO	0.01	0.01	0.1	0.2	0.4
 UT_to_ID	0.05	0.05	0.2	0.4	0.8
 UT_to_NV	0.03	0.03	0.05	0.2	1.0
@@ -672,6 +674,7 @@ TX_to_LA	172.7661	172.7661	460.7096	575.887	806.2418
 TX_to_NM	46.7046	46.7046	93.4092	155.682	217.9548
 TX_to_OK	84.4626	84.4626	112.6168	140.771	197.0794
 TX_to_TX_MX_NE	149.5068	149.5068	224.2602	373.767	523.2738
+TX_to_TX_MX_SS	0	0	0	0	0
 UT_to_CO	13.4478	13.4478	20.1717	22.413	31.3782
 UT_to_ID	10.54	10.54	16.864	21.08	29.512
 UT_to_NV	73.377	73.377	116.18025	122.295	171.213
@@ -26511,6 +26514,7 @@ TX_to_LA	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0
 TX_to_NM	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
 TX_to_OK	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
 TX_to_TX_MX_NE	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+TX_to_TX_MX_SS	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
 UT_to_CO	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
 UT_to_ID	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
 UT_to_NV	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	-1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
